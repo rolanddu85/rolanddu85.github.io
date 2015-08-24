@@ -1,6 +1,12 @@
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+body {
+	background-color: rgb(72,88,164);
+	color: white;
+	}
+	
+h1 {
+	text-align: center;
+	}
+	
+p.date {
+	text-align: right;
+	}
