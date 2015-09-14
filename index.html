@@ -1,55 +1,130 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <meta name="description" content="My Home Projects : A random assortment of side projects I have decided to create in my spare time!">
-        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-        <title>My Home Projects</title>
-    </head>
-    <body>
-        <!-- HEADER -->
-        <div id="header_wrap" class="outer">
-            <header class="inner">
-                <a id="forkme_banner" href="https://github.com/rolanddu85">View on GitHub</a>
-                <h1 id="project_title">My Home Projects</h1>
-                <h2 id="project_tagline">A random assortment of side projects I have decided to create in my spare time!</h2>
-            </header>
-        </div>
-        <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="outer">
-            <section id="main_content" class="inner">
-                <hr>
-                <h3>
-                    <a id="about-myself" class="anchor" href="#about-myself" aria-hidden="true"><span class="octicon octicon-link"></span></a>About myself
-                </h3>
-                <p>It has been more than 2 years now since I have graduated college, and I have worked as a middle-end developer using proprietary software ever since. But recently, I have realized that I am way out of touch with many new technologies &amp; languages, so I decided to start seriously learning and working on projects outside of work.</p>
-                <h2>
-                    <a id="my-current-progress" class="anchor" href="#my-current-progress" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Current Progress
-                </h2>
-                <h3>
-                    <a id="1-creating-the-main-page" class="anchor" href="#1-creating-the-main-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Creating the main page
-                </h3>
-                <p>This is my first time creating a webpage, so I am still trying to grasp the basics. I am currently learning the basics of CSS and working on getting my main page of GitHub Pages looking good. To get things started, I decided to use the autogenerate feature on GitHub, but plan on using Bootstrap afterwards. If anyone is interested, these are some of the resources that I am using as guides:</p>
-                <ul>
-                    <li><a href="https://www.khanacademy.org/computing/computer-programming/html-css">KhanAcademy - Intro to HTML/CSS: Making webpages</a>
-                    </li>
-                    <li><a href="http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/">How I built my blog in one day</a>
-                    </li>
-                    <li>
-                        <a href="https://www.reddit.com/r/webdev/comments/1v7en8/webdev_resources/">Webdev Resources (Reddit post)</a>
-                        <br>
-                    </li>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My Home Projects : A random assortment of side projects I have decided to create in my spare time!">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>My Home Projects</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- HEADER -->
+      <!-- This is a placeholder for a future header -->
+      <div class="col-sm-12">
+        <div class="page-header" id="header">
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://rolanddu85.github.io/">Home</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
                 </ul>
-                <p>(Yes, as much as it pains me, I do often spend too much time browsing Reddit)</p>
-            </section>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://github.com/rolanddu85">View on GitHub</a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </nav>
         </div>
-        <!-- FOOTER -->
-        <div id="footer_wrap" class="outer">
-            <footer class="inner">
-                <p>Published with <a href="https://pages.github.com">GitHub Pages</a>
-                </p>
-            </footer>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- BODY -->
+      <div class="col-sm-9">
+        <!-- Personal info -->
+        <h1>My Home Projects</h1>
+        <h3>About myself</h3>
+        <p>It has been more than 2 years now since I have graduated college, and I have worked as a middle-end developer using proprietary software ever since. But recently, I have realized that I am way out of touch with many new technologies &amp; languages,
+          so I decided to start seriously learning and working on projects outside of work.</p>
+        <!-- Currently working on -->
+        <h2>My Current Progress</h2>
+        <h3>1. Creating the main page</h3>
+        <p>This is my first time creating a webpage, so I am still trying to grasp the basics. I am currently learning the basics of CSS and working on getting my main page of GitHub Pages looking good. To get things started, I decided to use the autogenerate
+          feature on GitHub, but plan on using Bootstrap afterwards. If anyone is interested, these are some of the resources that I am using as guides: </p>
+        <ul>
+          <li><a href="https://www.khanacademy.org/computing/computer-programming/html-css">KhanAcademy - Intro to HTML/CSS: Making webpages</a>
+          </li>
+          <li><a href="http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/">How I built my blog in one day</a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/r/webdev/comments/1v7en8/webdev_resources/">Webdev Resources (Reddit post)</a>
+            <br>
+          </li>
+        </ul>
+        <h3>2. Starting a new side project</h3>
+        <p>I didn't want to spend too much time on making the home page perfect (Graphic design was never really my thing), and after getting sidetracked further, I decided this weekend that it was time to start a new project. I have not decided on the language
+          and tools, but I plan on adding a variety of finance tools</p>
+      </div>
+      <!-- SIDE MENU -->
+      <div class="col-sm-3">
+        <h2>Menu</h2>
+        <div class="list-group">
+          <a href="http://rolanddu85.github.io/FinanceTools/" class="list-group-item">Finance Tools</a>
+          <a href="#" class="list-group-item">Upcoming Project 2</a>
+          <a href="#" class="list-group-item">Upcoming Project 3</a>
+          <a href="#" class="list-group-item">Upcoming Project 4</a>
+          <a href="#" class="list-group-item">Upcoming Project 5</a>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- FOOTER -->
+      <!-- This is a placeholder for a future footer -->
+      <div class="col-sm-12">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#header">Back to top</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
